@@ -30,4 +30,27 @@ git checkout -- your_file
 
 ```
 
+# 远程仓库
+
+1. 注册 GitHub 帐号
+
+2. 创建 SSH Key
+
+```
+ls ~/.ssh/id_rsa " 私钥
+ls ~/,ssh/id_rsa.pub " 公钥
+
+ssh-keygen -t rsa -C "yourmain@example.com"
+```
+
+3. 上传公钥到 GitHub
+
+4. 提交本地仓库到 GitHub
+
+`git push origin master`
+
+5. 从远程库克隆
+
+`git clone https://github.com/yours/test`
+
 

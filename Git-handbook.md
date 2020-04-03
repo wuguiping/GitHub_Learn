@@ -1,13 +1,13 @@
 # Git 基本概念
 
-. Workspace 	工作区
-. Index/Stage	暂存区
-. Repository	仓库区
-. Remote	远程仓库
+- Workspace 	工作区
+- Index/Stage	暂存区
+- Repository	仓库区
+- Remote	远程仓库
 
 # 如何操作
 
-'''
+```
 git config --global user.name "your name"
 git config --global user.name "your email"
 cd git_directory
@@ -28,6 +28,6 @@ git reset --hard HEAD~3
 git reflog
 git checkout -- your_file
 
-'''
+```
 
 
